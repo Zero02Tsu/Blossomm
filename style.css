@@ -41,13 +41,12 @@ body {
   width: 30px;
   height: 30px;
   background-color: #f2a8b0; /* Soft pink color for cherry blossoms */
-  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Create a leaf shape */
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Create a triangular leaf shape */
   opacity: 0;
   animation: fall 5s linear infinite;
 }
 
-
-/* Animation for falling leaves */
+/* Keyframes for the falling animation */
 @keyframes fall {
   0% {
     top: -50px;
